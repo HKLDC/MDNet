@@ -1,4 +1,4 @@
-# BalanceSVFND
+# MDNet
 code for paper: ['Beyond Unimodal: A Multimodal Decoupling Network for Fake News Detection on Short Video Platforms']
 ## Environment
 please refer to the file requirements.txt.
@@ -12,7 +12,7 @@ FakeTT collect news videos from the TikTok platform, following a similar collect
 - We use the [ffmpeg tool](https://ffmpeg.org/) to extract key frames from the video.
 - For FakeTT dataset, we use [PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR) to extract OCR.
 - Pretrained bert-wwm can be downloaded [here](https://drive.google.com/file/d/1-2vEZfIFCdM1-vJ3GD6DlSyKT4eVXMKq/view), and the folder is already prepared in the project.
-- To facilitate reproduction, we provide preprocessed features, which you can download from [this link](https://pan.baidu.com/s/1z4taz_nOe_Uq5IANlPyOYw?pwd=ydp9), Please place these features in the specified location, which can be customized in dataloader.py. 
+- To facilitate reproduction, we provide preprocessed features, which you can download from [this link](https://drive.google.com/file/d/1XKOWxELqsNj9TXBjBPsstgEAPhoeIDM6/view?usp=sharing), Please place these features in the specified location, which can be customized in dataloader.py. 
 ## Train
 After placing the data, start training the model:
 ```python
